@@ -1,0 +1,1 @@
+An engaging and responsive personal portfolio website created by following the JavaScript Mastery tutorial on YouTube. Showcases web development skills, projects, and contact information.
