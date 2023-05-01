@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    python,
   } from "../assets";
   
   export const navLinks = [
@@ -80,38 +81,50 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "java",
+      icon: java,
+    },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
+      name: "c++",
+      icon: cpp,
+    },
+    {
+      name: "python",
+      icon: python,
     },
     {
       name: "MongoDB",
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
