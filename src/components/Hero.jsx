@@ -5,23 +5,17 @@ import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full h-screen mx-auto" id="home">
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#915eff]" />
+          <div className="w-5 h-5 rounded-full bg-teal-200" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Seongho Lee</span></h1>
-
-          {/* <p className="text-white font-poppins text-[16px] mt-5">I'm a software developer who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.</p>
-          <div className="flex flex-row gap-5 mt-5">
-            <button className="bg-[#915eff] text-white py-2 px-7 rounded-xl font-poppins font-medium text-[16px]">Hire Me</button>
-            <button className="bg-white text-[#915eff] py-2 px-7 rounded-xl font-poppins font-medium text-[16px]">Download CV</button>
-          </div>
-          <p>I am a full-stack developer <br className="sm:block hidden"/></p> */}
-
+          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-teal-200">Seongho Lee</span></h1>
+          
+          <p className="text-white font-poppins text-[16px] mt-5">Software engineer extraordinaire and fearless explorer of the digital realm! I have an insatiable curiosity for inventive solutions and love diving headfirst into programming challenges. Crafting exceptional web applications is my forte, and I'm a firm believer in sprinkling a little fun and delight into every user experience.</p>
         </div>
       </div>
       <ComputersCanvas />

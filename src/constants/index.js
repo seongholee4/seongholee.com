@@ -1,7 +1,7 @@
 import {
     mobile,
     backend,
-    creator,
+    data,
     web,
     javascript,
     typescript,
@@ -17,23 +17,37 @@ import {
     docker,
     meta,
     starbucks,
+    navy,
+    dickinson,
     tesla,
     shopify,
+    book,
     carrent,
     jobit,
     tripguide,
     threejs,
+    java,
+    cpp,
     python,
+    netflix,
+    weather,
+    portfolio,
+    mancala,
+    bookproject,
   } from "../assets";
   
   export const navLinks = [
+    {
+      id: "home",
+      title: "Home",
+    },
     {
       id: "about",
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -43,11 +57,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "AI Developer",
       icon: mobile,
     },
     {
@@ -55,8 +69,8 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "PC Gaming & Hardware Enthusiast",
+      icon: data,
     },
   ];
   
@@ -129,57 +143,53 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Help Room Teaching Assistant",
+      company_name: "Dept. of Math & Computer Science at Dickinson",
+      icon: dickinson,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2017 - May 2018",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Supported students in Java programming and course concepts with empathy, communication, and feedback.",
+        "Helped students with Java programming and course concepts, while offering constructive feedback to improve their skills.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Technical Assistant",
+      company_name: "RSA & Student HelpDesk at Dickinson",
+      icon: dickinson,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Sep 2017 - May 2018",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Managed hardware and software inventory, maintaining accurate database records.",
+        "Assisted student workers in resolving technical issues promptly and effectively.",
+        "Collaborated with colleagues to create and implement new technical support initiatives, improving customer satisfaction and reducing issue resolution time.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Signaller Sergeant",
+      company_name: "Republic of Korea Army",
+      icon: navy,
+      iconBg: "#383E56",
+      date: "Oct 2018 - July 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Analyzed and interpreted information gathered from various teams.",
+        "Assisted in the development and implementation of tactical communication strategies and plans to support military operations.",
       ],
     },
+    {
+      title: "Open Source Contributor",
+      company_name: "Book Project",
+      icon: book,
+      iconBg: "#383E56",
+      date: "Sep 2020 - May 2021",
+      points: [
+        "Contributed to an open-source web application called Book Project, which was built using Spring Boot and React with Typescript.",
+        "Developed REST endpoints to facilitate communication between two endpoints, allowing users to update their email addresses.",
+        "Created mock objects using Mockito API to test new methods for correctness.",
+      ],
+    },
+
+    
   ];
   
   const testimonials = [
@@ -211,68 +221,124 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Netflix Clone",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A replica of the popular streaming platform built with React, CSS, and JavaScript, showcasing my ability to create engaging user interfaces and utilize popular libraries.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
         },
         {
           name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: netflix,
+      live_demo_link: "https://netflix-clone-fd763.web.app/",
+      source_code_link: "https://github.com/seongholee4/netflix-clone",
+    },
+    {
+      name: "Weather App",
+      description:
+        "A server-side rendered weather application developed using Flask, HTML, CSS, and JavaScript.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "flask",
+          color: "green-text-gradient",
+        },
+        {
+          name: "html",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+      ],
+      image: weather,
+      live_demo_link: "",
       source_code_link: "https://github.com/",
     },
+    {
+      name: "Portfolio Website",
+      description:
+        "My personal portfolio website, built with TailwindCSS, Three.js, and React, showcasing my skills in modern web development and creative design.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "threejs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      live_demo_link: "https://seongholee.com",
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Mancala Game",
+      description:
+        " A Java-based implementation of the classic board game, Mancala, showcasing my skills in game development and object-oriented programming.",
+      tags: [
+        {
+          name: "java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "object-oriented-programming",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mancala",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: mancala,
+      live_demo_link: "",
+      source_code_link: "https://github.com/seongholee4/mancala",
+    },
+    {
+      name: "Book Project",
+      description:
+        "Contributed to an open-source project, aimed at helping users manage their reading lists and discover new books.",
+      tags: [
+        {
+          name: "java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "springboot",
+          color: "green-text-gradient",
+        },
+        {
+          name: "react",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bookproject,
+      live_demo_link: "",
+      source_code_link: "https://github.com/seongholee4/mancala",
+    },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };

@@ -38,7 +38,7 @@ const Navbar = () => {
           }}>
           <img src={logo} alt="logo" className="w-9 h-9 object-contain mx-0" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Seongho &nbsp;<span className='sm:block hidden'>| Lee</span>
+            Seongho &nbsp;<span className='sm:block hidden'>|&nbsp; Lee</span>
           </p>
         </Link>
 
