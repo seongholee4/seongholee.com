@@ -292,7 +292,7 @@ import {
       ],
       image: portfolio,
       live_demo_link: "https://seongholee.com",
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/seongholee4/seongholee.com",
     },
     {
       name: "Mancala Game",
@@ -336,7 +336,7 @@ import {
       ],
       image: bookproject,
       live_demo_link: "",
-      source_code_link: "https://github.com/seongholee4/mancala",
+      source_code_link: "https://github.com/Project-Books/book-project",
     },
     
   ];
